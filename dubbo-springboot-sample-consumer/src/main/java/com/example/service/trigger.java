@@ -20,7 +20,7 @@ public class trigger {
 
     public void init() {
         try {
-           // this.user = userDubboServiceClient.getUserInfo(1);
+           this.user = userDubboServiceClient.getUserInfo(1);
         } catch (Exception e) {
             log.error("", e);
         }
