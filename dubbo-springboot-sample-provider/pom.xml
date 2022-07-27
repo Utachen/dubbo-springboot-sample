@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
-            <version>3.0.5</version>
+            <version>3.0.8</version>
         </dependency>
 
         <dependency>
@@ -71,26 +71,33 @@
             <artifactId>dubbo-registry-kubernetes</artifactId>
             <version>1.0.2-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo-registry-kubernetes</artifactId>
-            <version>3.0.5</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.dubbo</groupId>
-                    <artifactId>dubbo-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.dubbo</groupId>
-                    <artifactId>dubbo-remoting-api</artifactId>
-                </exclusion>
+
+<!--        <dependency>-->
+<!--            <groupId>org.apache.dubbo</groupId>-->
+<!--            <artifactId>dubbo-registry-kubernetes</artifactId>-->
+<!--            <version>3.0.5</version>-->
+<!--            <exclusions>-->
 <!--                <exclusion>-->
 <!--                    <groupId>org.apache.dubbo</groupId>-->
-<!--                    <artifactId>dubbo-metadata-api</artifactId>-->
+<!--                    <artifactId>dubbo-common</artifactId>-->
 <!--                </exclusion>-->
-            </exclusions>
-        </dependency>
+<!--                <exclusion>-->
+<!--                    <groupId>org.apache.dubbo</groupId>-->
+<!--                    <artifactId>dubbo-remoting-api</artifactId>-->
+<!--                </exclusion>-->
+<!--&lt;!&ndash;                <exclusion>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <groupId>org.apache.dubbo</groupId>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <artifactId>dubbo-metadata-api</artifactId>&ndash;&gt;-->
+<!--&lt;!&ndash;                </exclusion>&ndash;&gt;-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
 
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-bom</artifactId>
+            <version>3.0.8</version>
+            <type>pom</type>
+        </dependency>
 
 
     </dependencies>

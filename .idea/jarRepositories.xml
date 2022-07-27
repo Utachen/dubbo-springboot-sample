@@ -22,6 +22,16 @@
       <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="xx" />
+      <option name="name" value="xx" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache-snapshots" />
+      <option name="name" value="apache-snapshots" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="aliyun-google" />
       <option name="name" value="Maven Aliyun Google Mirror" />
       <option name="url" value="https://maven.aliyun.com/repository/google" />
@@ -32,9 +42,24 @@
       <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="apache.snapshots.https" />
+      <option name="name" value="Apache Development Snapshot Repository" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="aliyun-gradle-plugin" />
       <option name="name" value="Maven Aliyun Gradle Plugin Mirror" />
       <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.snapshots.https" />
+      <option name="name" value="Apache Development Snapshot Repository" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="aliyun-core" />
@@ -50,6 +75,16 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="my-apache-snapshots1" />
+      <option name="name" value="Repository for JDK 1.4 builds" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.snapshots.https" />
+      <option name="name" value="Apache Development Snapshot Repository" />
+      <option name="url" value="https://repository.apache.org/content/repositories/snapshots" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="aliyun-central" />
@@ -87,6 +122,21 @@
       <option name="url" value="https://maven.aliyun.com/repository/grails-core" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central2" />
+      <option name="name" value="central2" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="my-apache-snapshots1" />
+      <option name="name" value="Repository for JDK 1.4 builds" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring" />
+      <option name="name" value="spring" />
+      <option name="url" value="https://maven.aliyun.com/repository/spring" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="aliyun-central" />
       <option name="name" value="Maven Aliyun Central Mirror" />
       <option name="url" value="https://maven.aliyun.com/repository/central" />
@@ -117,14 +167,34 @@
       <option name="url" value="https://nexus.pentaho.org/content/repositories/omni/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
+      <option name="id" value="my-apache-snapshots2" />
+      <option name="name" value="Repository for JDK 1.4 builds" />
       <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="xx" />
+      <option name="name" value="xx" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
       <option name="url" value="https://maven.aliyun.com/repository/central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aliyunmavenApache" />
+      <option name="name" value="aliyunmavenApache" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache-snapshots" />
+      <option name="name" value="apache-snapshots" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
